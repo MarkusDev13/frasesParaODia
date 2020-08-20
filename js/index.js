@@ -57,3 +57,8 @@ document.getElementsByClassName("generator-button")[0].addEventListener('click',
 
 })
 
+
+window.addEventListener("load", function () {
+    const loader = document.querySelector(".loadingPage");
+    loader.className += " hidden"; 
+});
