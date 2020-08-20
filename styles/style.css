@@ -1,0 +1,57 @@
+@import url('../styles/generator.css');
+@import url('../styles/message.css');
+:root{
+    --background-color: #4776E6;
+    --background-hover-color : #762fe7;
+    --background-second-color : #8E54E9;
+    --background-second-hover-color : #6713ee;
+    --primary-color : rgb(37,37,37);
+    --first-romantic-color: #cb2d3e;
+    --second-romantic-color: #e73827;
+    --first-funny-color :#F2994A; 
+    --second-funny-color: #F2C94C;
+    --first-motivational-color :#467099; 
+    --second-motivational-color: #096ccf;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    min-height: 500px;
+   
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient( 90deg,
+    var(--background-color),
+    var(--background-second-color),
+    var(--background-hover-color),
+    var(--background-second-hover-color));
+    transition: 0.5s;
+    background-size: 300% 300%;
+    animation: colors 10s ease infinite;
+  }
+
+  @keyframes colors {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+

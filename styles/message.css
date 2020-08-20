@@ -1,0 +1,92 @@
+.modal-area{
+    display: none;
+    position: absolute;
+    width: 90%;
+    max-width: 700px;
+    height: 70%;
+    max-height: 500px;
+    min-height: 400px;
+
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 0 100px black;
+    transition: 0.5s;
+}
+
+    .modal-area .close-modal{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+       
+        border-bottom: 5px solid var(--primary-color); 
+        color: var(--primary-color);
+        font-family: 'Dimbo';
+        font-weight: 800;
+        font-size: 30px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .modal-area .close-modal:hover{
+        transform: scale(1.08,1.08);
+        color: white;
+        border-bottom: 5px solid white;
+    }
+
+
+    .modal-area .message-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 70%;
+    }
+
+        .modal-area .message-area .message{
+            width: 90%;
+            text-align:center;
+            font-family: 'Dimbo',cursive;
+            font-size: max(20px, 2.5vw);
+            color: white;
+            padding:2px;
+            border:2px solid  var(--primary-color);
+            animation: showMessage 0.4s;
+        }
+        
+    @keyframes showMessage{
+        0%{
+          opacity: 0;
+        }
+        99%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+        
+    }
+
+    .modal-area .progress-area{
+        position: absolute;
+        width: 60%;
+        height: 30px;
+    }
+
+    .modal-area .progress-area .progress{
+        width: 0%;
+        height: 100%;
+        background: white;
+        animation: loadDiv 0.4s;
+    }
+
+    @keyframes loadDiv{
+        0% {
+            width: 0%;
+        }
+        100%{
+            width: 100%;
+        }
+        
+    }

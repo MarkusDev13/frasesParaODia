@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frases para o dia !</title>
+    <link rel="shortcut icon" href="./assets/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/644d9c2dceed6f87489d5a524b3ad820?family=Dimbo" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+    <section class="generator-area">
+
+        <h3 class="titleInitial">
+            Que tal uma frase ?
+        </h3>
+
+        <div class="categories-message">
+
+            <input class="input-radio" value="romantic" type="radio" name="typeOfMessage" id="romantic">
+            <label class="categories-button" for="romantic">Frases Românticas</label>
+
+            <input class="input-radio" type="radio" value="funny" name="typeOfMessage" id="funny">
+            <label class="categories-button" for="funny">Frases Engraçadas</label>
+
+            <input class="input-radio" type="radio" value="motivational" name="typeOfMessage" id="motivational">
+            <label class="categories-button" for="motivational">Frases Motivacionais</label>
+        </div>
+
+        <button class="generator-button">Gerar Frase</button>
+
+
+    </section>
+
+    <div class="modal-area">
+     
+        <div class="close-modal">X</div>
+        <div class="message-area">
+            <div class="progress-area">
+                <div class="progress"></div>
+            </div>
+            <p class="message"></p>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
