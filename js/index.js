@@ -35,15 +35,15 @@ document.getElementsByClassName("generator-button")[0].addEventListener('click',
             document.querySelectorAll(".categories-button")[i].style.border = "2px solid red"
         }
     } else if (valueInput === "romantic") {
-        document.getElementsByClassName("message")[0].innerHTML = msgRomantic[Math.floor(Math.random()* msgFunny.length)]
+        document.getElementsByClassName("message")[0].innerHTML = ` " ${msgRomantic[Math.floor(Math.random()* msgFunny.length)]} "` 
         modal.style.background = "linear-gradient(90deg, var(--first-romantic-color), var(--second-romantic-color))"
        
     } else if (valueInput === "funny") {
-        document.getElementsByClassName("message")[0].innerHTML = msgFunny[Math.floor(Math.random()* msgFunny.length)]
+        document.getElementsByClassName("message")[0].innerHTML = ` " ${msgFunny[Math.floor(Math.random()* msgFunny.length)]} "`
         modal.style.background = "linear-gradient(90deg, var(--first-funny-color), var(--second-funny-color))"
       
     } else {
-        document.getElementsByClassName("message")[0].innerHTML = msgMotivational[Math.floor(Math.random()* msgFunny.length)]
+        document.getElementsByClassName("message")[0].innerHTML = ` " ${msgMotivational[Math.floor(Math.random()* msgFunny.length)]} "`
         modal.style.background = "linear-gradient(90deg, var(--first-motivational-color), var(--second-motivational-color))"
       
     }

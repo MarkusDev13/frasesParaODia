@@ -22,7 +22,7 @@
        
         border-bottom: 5px solid var(--primary-color); 
         color: var(--primary-color);
-        font-family: 'Dimbo';
+        font-family: 'Fredoka One', 'Ubuntu', cursive;
         font-weight: 800;
         font-size: 30px;
         cursor: pointer;
@@ -33,7 +33,21 @@
         transform: scale(1.08,1.08);
         color: white;
         border-bottom: 5px solid white;
+        animation: closeAnimation 0.3s;
     }
+
+    @keyframes closeAnimation{
+        0%{
+            transform: rotate(15deg);
+        }
+        50%{
+            transform: rotate(-15deg);
+        }
+        100%{
+            transform: rotate(0deg);
+        }
+    }
+
 
 
     .modal-area .message-area {
@@ -47,8 +61,8 @@
         .modal-area .message-area .message{
             width: 90%;
             text-align:center;
-            font-family: 'Dimbo',cursive;
-            font-size: max(20px, 2.5vw);
+            font-family: 'Fredoka One','Ubuntu', sans-serif;
+            font-size: max(20px, 2vw);
             color: white;
             padding:2px;
             border:2px solid  var(--primary-color);
