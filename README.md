@@ -4,7 +4,7 @@ Gerador de frases para tentar deixar seu dia um pouco mais leve! 😁
  
 ## Preview
 
-![preview do projeto ](https://i.imgur.com/weTm50C.jpg)
+![preview do projeto ](https://i.imgur.com/umHKfsM.jpg)
 
 ## Tecnologias utilizadas
 
