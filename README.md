@@ -1,6 +1,6 @@
 # Frases Para o Dia ! 📃💜
 
-Gerador de frases para tentar deixar seu dia um pouco mais leve! 
+Gerador de frases para tentar deixar seu dia um pouco mais leve! 😁
  
 ## Preview
 
@@ -13,6 +13,9 @@ Gerador de frases para tentar deixar seu dia um pouco mais leve!
 . CSS
 . JavaScript
 ```
+
+você pode acessá-lo clicando aqui :  https://markusdev13.github.io/frasesParaODia/
+
 
 
 Desenvolvido por Markus Dennys em ativade pelo curso do Start Latam Recife ! 💻
