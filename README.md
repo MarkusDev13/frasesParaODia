@@ -14,7 +14,7 @@ Gerador de frases para tentar deixar seu dia um pouco mais leve! 😁
 . JavaScript
 ```
 
-você pode acessá-lo clicando aqui :  https://markusdev13.github.io/frasesParaODia/
+você pode acessá-lo clicando aqui : https://markdennys.github.io/frasesParaODia/
 
 
 
