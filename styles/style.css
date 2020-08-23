@@ -1,5 +1,7 @@
 @import url('../styles/generator.css');
 @import url('../styles/message.css');
+@import url('../styles/background.css');
+
 :root{
     --background-color: #4776E6;
     --background-hover-color : #762fe7;
@@ -19,11 +21,10 @@
     box-sizing: border-box;
 }
 
-body{
+html, body{
     width: 100vw;
     height: 100vh;
     min-height: 500px;
-   
 
     display: flex;
     flex-direction: column;
@@ -31,26 +32,7 @@ body{
     justify-content: center;
 
     font-family: 'Ubuntu', sans-serif;
-    background: linear-gradient( 90deg,
-    var(--background-color),
-    var(--background-second-color),
-    var(--background-hover-color),
-    var(--background-second-hover-color));
-    transition: 0.5s;
-    background-size: 300% 300%;
-    animation: colors 10s ease infinite;
-  }
-
-  @keyframes colors {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+   
   }
 
   .loadingPage {

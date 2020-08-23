@@ -22,7 +22,7 @@
        
         border-bottom: 5px solid var(--primary-color); 
         color: var(--primary-color);
-        font-family: 'Fredoka One', 'Ubuntu', cursive;
+        font-family: 'Russo One', 'Ubuntu', Arial, Helvetica, sans-serif;
         font-weight: 800;
         font-size: 30px;
         cursor: pointer;
@@ -59,9 +59,9 @@
     }
 
         .modal-area .message-area .message{
-            width: 90%;
+            width: 85%;
             text-align:center;
-            font-family: 'Fredoka One','Ubuntu', sans-serif;
+            font-family: 'Russo one','Ubuntu', sans-serif;
             font-size: max(20px, 2vw);
             color: white;
             padding:2px;
@@ -108,3 +108,12 @@
         }
         
     }
+
+    .modal-area .svg{
+        width: 20%;
+        position: absolute;
+        bottom: 10px;
+        right: 30px;
+        opacity: 0.2;
+    }
+    

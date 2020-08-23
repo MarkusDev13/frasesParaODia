@@ -62,3 +62,5 @@ window.addEventListener("load", function () {
     const loader = document.querySelector(".loadingPage");
     loader.className += " hidden"; 
 });
+
+
