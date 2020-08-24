@@ -13,9 +13,22 @@
     background: white;
     box-shadow: 0px 20px 50px var(--primary-color);
     text-align:center;
+
+    animation: transitionUp 1s;
+    animation-fill-mode: forwards;
 }
 
-
+@keyframes transitionUp {
+    0% {
+        opacity: 0;
+        margin-top: 60px;
+        visibility: hidden;
+    }
+    100% {
+        margin-top: 0;
+        opacity: 1;
+    }
+}
         .generator-area .texts-initial{
             margin: 10px auto;
         }

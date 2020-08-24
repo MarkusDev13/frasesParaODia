@@ -29,5 +29,18 @@
   .background svg{
    position: fixed;
    bottom: 0;
-  }
-  
+   animation: svg-transitionUp 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes svg-transitionUp {
+    0% {
+        opacity: 0;
+        bottom: -10px;
+        visibility: hidden;
+    }
+    100% {
+        bottom: 0;
+        opacity: 1;
+    }
+}
