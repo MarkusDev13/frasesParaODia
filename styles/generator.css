@@ -37,7 +37,7 @@
                     font-family: 'Russo One', 'Ubuntu', Arial, Helvetica, sans-serif;
                     color: var(--primary-color);
                     letter-spacing: 4px;
-                    font-size: max(20px , 2.5vw);
+                    font-size: max(20px , 2vw);
                     font-weight: 600;
                 }
 
